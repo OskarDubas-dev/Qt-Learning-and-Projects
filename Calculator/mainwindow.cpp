@@ -6,13 +6,21 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
-    connect(ui->horizontalSlider, SIGNAL(valueChanged(int)), ui->progressBar, SLOT(setValue(int)));
+    ui->radioButton->setChecked(1);
 
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::onButtonClicked()
+{
+
+}
+void MainWindow::on_pushButton_2_clicked()
+{
+    ui->pushButton_2->setText("Hi!");
 }
 

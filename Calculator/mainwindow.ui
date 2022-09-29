@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>500</width>
-    <height>266</height>
+    <width>729</width>
+    <height>433</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,6 +19,9 @@
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <widget class="QPushButton" name="pushButton_2">
+        <property name="toolTip">
+         <string>close</string>
+        </property>
         <property name="styleSheet">
          <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;</string>
         </property>
@@ -28,18 +31,28 @@
        </widget>
       </item>
       <item>
-       <widget class="QProgressBar" name="progressBar">
-        <property name="value">
-         <number>0</number>
+       <widget class="QRadioButton" name="radioButton_2">
+        <property name="text">
+         <string>Apple</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QSlider" name="horizontalSlider">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
+       <widget class="QRadioButton" name="radioButton_3">
+        <property name="text">
+         <string>Banana</string>
         </property>
        </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radioButton">
+        <property name="text">
+         <string>Melon</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit"/>
       </item>
      </layout>
     </item>
@@ -50,7 +63,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>500</width>
+     <width>729</width>
      <height>21</height>
     </rect>
    </property>
@@ -58,22 +71,5 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>pushButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>452</x>
-     <y>192</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>593</x>
-     <y>124</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
