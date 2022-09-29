@@ -13,18 +13,25 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QCheckBox" name="checkBox">
+  <widget class="QComboBox" name="comboBox">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>230</y>
-     <width>151</width>
-     <height>111</height>
+     <x>141</x>
+     <y>150</y>
+     <width>281</width>
+     <height>31</height>
     </rect>
    </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
+   <item>
+    <property name="text">
+     <string>Apple</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Banana</string>
+    </property>
+   </item>
   </widget>
  </widget>
  <resources/>
