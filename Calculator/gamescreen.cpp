@@ -17,3 +17,11 @@ gameScreen::~gameScreen()
 {
     delete ui;
 }
+
+
+
+void gameScreen::on_comboBox_activated(int index)
+{
+
+}
+
